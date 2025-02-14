@@ -29,10 +29,7 @@ const Navbar = () => {
           <a href="/about" className="hover:text-gray-400">About</a>
           <a href="/projects" className="hover:text-gray-400">Projects</a>
           <a href="/contact" className="hover:text-gray-400">Contact Me</a>
-          <a
-            className="p-2 rounded cursor-pointer bg-[#27272a] hover:bg-[#ededed] hover:text-zinc-800 transition ease-in-out duration-300 font-semibold"
-            target="_blank"
-          >
+          <a href="https://drive.google.com/file/d/1PdzzBn9nrEdiSV3WO0Ny-J9lCHrSVcID/view?usp=sharing" target="_blank"className="text-white p-3 bg-[#222222] hover:bg-white hover:text-black duration-500 transition-all ease-in-out  max-w-fit rounded-md">
             Download Resume
           </a>
         </div>
