@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import React from 'react'
 import Home from './UI/Home'
 import About from "./UI/About";
 import Contact from "./UI/ContactMe";

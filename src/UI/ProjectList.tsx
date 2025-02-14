@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Project_List } from "../Components/data";
 import { ProjectCard } from "./Project";
 

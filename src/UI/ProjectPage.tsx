@@ -3,7 +3,7 @@ import { Project_List } from "../Components/data"
 import { useEffect, useState } from "react";
 import MarkdownViewer from "./MarkdowViewer";
 import Navbar from "./Navbar";
-import React from "react";
+
 
 const ProjectPage = () => {
   const params = useParams();

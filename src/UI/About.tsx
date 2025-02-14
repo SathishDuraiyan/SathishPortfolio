@@ -1,7 +1,7 @@
 import Navbar from "./Navbar"
 import Experience from "./Experience"
 import Footer from "./Footer"
-import React from "react"
+
 import Acedemics from "./Acedemics"
 
 const About = () => {

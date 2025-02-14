@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu } from "lucide-react";
-import React from "react";
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

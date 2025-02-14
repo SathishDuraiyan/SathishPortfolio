@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import { Project_List, ProjectCardProps } from "../Components/data";
-import React from "react";
+
 
 export const ProjectCard = ({ id, name, lang, desc }: ProjectCardProps) => {
   return (

@@ -9,7 +9,7 @@ import { FaPython } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 import { FaCopyright } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
-import React from "react";
+
 import { BiLogoSpringBoot } from "react-icons/bi";
 import { GrMysql } from "react-icons/gr";
 import { FaFigma } from "react-icons/fa6";

@@ -1,4 +1,4 @@
-import React from "react";
+
 import Navbar from "./Navbar";
 import { IoLogoGithub } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
