@@ -10,7 +10,6 @@ import Skills from "./Skills";
 import Experience from "./Experience";
 import ProjectList from "./ProjectList";
 import Footer from "./Footer";
-import { Button } from "../Components/Button";
 const Home = () => {
   return (
     <div className="bg-[#111111] h-full w-full ">
@@ -18,17 +17,19 @@ const Home = () => {
       <div className="flex flex-col mt-10 justify-center md:px-[15%] space-y-6 px-[7%]">
         <div className="p-8 border-2 border-[#222222] rounded-2xl flex flex-col gap-4 text-white">
             
-              <p className="text-4xl font-bold">
-              Sathish Duraiyan !
-              </p>
         
-            <div className="flex flex-row gap-5 text-white justify-between ">
+            <div className="flex flex-col md:flex-row gap-5 text-white justify-between ">
+             <div className="flex flex-col">
+             <p className="text-4xl font-bold mb-3">
+              Sathish Duraiyan
+              </p> 
               <div className="flex flex-row gap-3 items-center">
                 <FaLocationDot></FaLocationDot>
                 <p className="text-slate-400">
                   Salem - 637 502, Tamil Nadu, India
                 </p>
               </div>
+             </div>
               <div className="flex flex-row gap-5 text-white">
                 <a href="https://github.com/SathishDuraiyan" target="_blank"><IoLogoGithub className="border-2 border-[#27272a] p-1.5 rounded-md cursor-pointer hover:shadow-red-600 hover:shadow-2xl w-10 h-10"/></a>
                 <a href="https://leetcode.com/u/Sathish_Duraiyan/" target="_blank"><SiLeetcode className="border-2 border-[#27272a] p-1.5 rounded-md cursor-pointer hover:shadow-red-600 hover:shadow-2xl w-10 h-10"/></a>
@@ -46,9 +47,9 @@ const Home = () => {
                 logic.
               </p>
             </div>
-            <Button className="text-white p-3 bg-[#222222] hover:bg-white hover:text-black duration-500 transition-all ease-in-out  max-w-fit">
+            <a href="https://drive.google.com/file/d/1PdzzBn9nrEdiSV3WO0Ny-J9lCHrSVcID/view?usp=sharing" target="_blank"className="text-white p-3 bg-[#222222] hover:bg-white hover:text-black duration-500 transition-all ease-in-out  max-w-fit rounded-md">
             Download Resume
-          </Button>
+          </a>
         </div>
         <div className="pt-5">
         <Skills></Skills>
