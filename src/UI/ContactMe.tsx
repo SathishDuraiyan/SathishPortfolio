@@ -51,9 +51,9 @@ const Contact: React.FC = () => {
   return (
     <div className="text-white bg-[#111111] w-full h-screen">
       <Navbar />
-      <div className="md:px-40 md:py-15 h-[55%] w-full bg-[#222222] px-8 py-15 flex flex-col gap-5">
-        <p className="text-5xl font-bold ">Get In Touch</p>
-        <p className="text-[19px]">
+      <div className="md:px-40 md:py-15 h-[55%] w-full bg-[#222222] px-8 py-3 flex flex-col gap-5">
+        <p className="text-3xl font-bold ">Get In Touch</p>
+        <p className="md:text[17px] text-[15px]">
           Stay in the loop ! Fill in your details to receive exclusive updates 
           <br />
           straight to your inbox. Got a quick question?{" "}
@@ -75,7 +75,7 @@ const Contact: React.FC = () => {
           <p>Egapuram, Salem - 637 502, Tamil Nadu, India</p>
         </a>
       </div>
-      <div className="lg:mt-[-400px] lg:ml-[700px] w-full lg:w-1/2 flex flex-col justify-center items-center p-12 gap-5 rounded-2xl ">
+      <div className="lg:mt-[-400px] lg:ml-[700px] w-full lg:w-1/2 flex flex-col justify-center items-center p-3 md:p-12 gap-5 rounded-2xl ">
         <div className="md:w-full w-[95%] bg-[#111111] p-8 rounded-2xl flex flex-col gap-5">
           <h2 className="font-bold text-white text-2xl">Contact Me</h2>
           <form
