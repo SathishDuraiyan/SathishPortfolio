@@ -70,7 +70,7 @@ const Contact: React.FC = () => {
           <p>Sathish Duraiyan</p>
         </a>
 
-        <a href="https://maps.app.goo.gl/Z4U848jwuHS7VJ6H6" target="_blank" className="flex flex-row items-center gap-5 text-zinc-400 hover:text-white">
+        <a href="https://maps.app.goo.gl/A8TToKSpfigv95ZYA" target="_blank" className="flex flex-row items-center gap-5 text-zinc-400 hover:text-white">
           <FaLocationDot className="w-5 h-5" />
           <p>Egapuram, Salem - 637 502, Tamil Nadu, India</p>
         </a>
